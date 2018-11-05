@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <step comment="false" x="15" y="15">
+        <step comment="false" x="9" y="104">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="40">
+                <if comment="false" x="20" y="129">
                     <group eventID="1" id="-1">
-                        <push-shove comment="false" x="37" y="78">
+                        <push-shove comment="false" x="31" y="167">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <minus comment="false" id="2" x="0" y="0">
@@ -32,9 +32,9 @@
                         <int id="1" val="follow"/>
                     </eq>
                 </if>
-                <else comment="false" x="26" y="135">
+                <else comment="false" x="20" y="224">
                     <group eventID="1" id="-1">
-                        <push-shove comment="false" x="37" y="155">
+                        <push-shove comment="false" x="31" y="244">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <minus comment="false" id="2" x="0" y="0">

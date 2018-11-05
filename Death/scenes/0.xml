@@ -9,13 +9,17 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Pink 1" sx="1.0" sy="1.0" x="18" y="390" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="8" name="Death Block 2" sx="1.0" sy="1.0" x="76" y="388" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="4" id="13" name="Enemy 3" sx="1.0" sy="1.0" x="159" y="405" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="4" id="13" name="Enemy 4" sx="1.0" sy="1.0" x="222" y="357" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Pink 1" sx="1.0" sy="1.0" x="21" y="414" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="8" name="Death Block 2" sx="1.0" sy="1.0" x="72" y="415" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="5" id="15" name="Spikes 4" sx="1.0" sy="1.0" x="178" y="321" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="5" id="15" name="Spikes 5" sx="1.0" sy="1.0" x="178" y="290" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="5" id="15" name="Spikes 6" sx="1.0" sy="1.0" x="178" y="259" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="6" id="17" name="Speed 7" sx="1.0" sy="1.0" x="289" y="410" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="4" id="13" name="Enemy 8" sx="1.0" sy="1.0" x="209" y="410" z="0"/>
     </actors>
     <snippets/>
     <terrain>
+        <p pts="4,0.0,32.0,0.0,0.0,352.0,0.0,352.0,32.0" x="192.0" y="352.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,640.0,0.0,640.0,32.0" x="0.0" y="448.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
