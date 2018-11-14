@@ -67,7 +67,6 @@
         <cgroup g1="1" g2="3"/>
         <cgroup g1="1" g2="4"/>
         <cgroup g1="1" g2="5"/>
-        <cgroup g1="1" g2="6"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="3" g2="4"/>
         <cgroup g1="4" g2="5"/>
@@ -88,7 +87,7 @@
     <attributes>
         <number cid="-1" id="0" name="PinkX" save="true" value="0.0"/>
         <number cid="-1" id="1" name="PinkY" save="true" value="0.0"/>
-        <number cid="-1" id="2" name="Health Points" save="true" value="0"/>
+        <number cid="-1" id="2" name="Health Points" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
