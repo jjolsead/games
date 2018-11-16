@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,27 +69,27 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_1 extends SceneScript
+class ActorEvents_21 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ============================ Click ============================= */
-		addMousePressedListener(function(list:Array<Dynamic>):Void
+		/* ======================= Every N seconds ======================== */
+		runPeriodically(1000 * 1.5, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
-				switchScene(GameModel.get().scenes.get(0).getID(), null, createCrossfadeTransition(1));
+				createRecycledActor(getActorType(25), actor.getX(), actor.getY(), Script.FRONT);
 			}
-		});
+		}, actor);
 		
 	}
 	
